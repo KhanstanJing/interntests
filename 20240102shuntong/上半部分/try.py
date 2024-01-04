@@ -32,22 +32,3 @@ calculate_spread_statistics(match_path, outputs)
 # part3_outputs_path
 final_path = './outputs/USDCNH_spreadmeanmedian.csv'
 
-df = pd.read_csv(r'D:\interntests\20240102shuntong\outputs\USDCNH_20200101_20230715.csv')
-print('info')
-df.info()
-print(df)
-print('describe')
-print(df.describe())
-df.describe()
-print('head')
-print(df.head())
-df.head()
-print('columns')
-column_names = df.columns
-print(column_names)
-
-# 查看 DataFrame 的行列数
-num_rows, num_columns = df.shape
-
-print("Number of rows:", num_rows)
-print("Number of columns:", num_columns)

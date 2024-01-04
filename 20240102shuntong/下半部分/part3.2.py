@@ -26,7 +26,7 @@ def operation1(para):
     daily_data.columns = ['dailyopen', 'dailyhigh', 'dailylow', 'dailyclose', 'dailyvolume']
 
     # 设置合约月份
-    daily_data['contractmonth'] = para
+    daily_data['contractmonth'] = 200000 + para
 
     # 将 'datetime' 列的日期格式更改为 'YYYYMMDD'
     daily_data = daily_data.reset_index()
